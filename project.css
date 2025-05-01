@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('projectbk.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .container {
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    margin-top: 30px;
+    color: #f2f2f2;
+  }
+  
+  .project p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  /* GitHub Button */
+  .github-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .github-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    color: #2e2b28;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Back Button */
+  .button-row {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #ffffff;
+    color: #2e2b28;
+  }
+  
