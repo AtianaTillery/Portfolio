@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('KOI.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive; /* Retro Pixel font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Main Container */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Softer background for contrast */
+    backdrop-filter: blur(6px);
+    padding: 40px;
+    border: 2px solid #2c8e4f; /* Earthy green border */
+    border-radius: 15px;
+    text-align: center;
+    color: #a9e0a4; /* Soft green text */
+    max-width: 600px;
+    margin: 100px auto;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    color: #b5d58d; /* Light earthy green title */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #a9e0a4; /* Soft green paragraph */
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #a9e0a4;
+    background-color: transparent;
+    border: 2px solid #a9e0a4;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #a9e0a4;
+    color: #2c8e4f; /* Darker green when hovered */
+}
